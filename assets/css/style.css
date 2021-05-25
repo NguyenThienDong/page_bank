@@ -1,0 +1,91 @@
+/* Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*
+1. Tu ngoai vao trong
+2. Tu tren xuong duoi
+3. Tong quan den chi tiet
+*/
+
+/*
+1. Vi tri
+2. Kich thuoc
+3. Mau sac
+4. Kieu dang (kieu chu, hinh dang,...)
+*/
+
+#main {
+
+}
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a{
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a{
+    padding: 0 12px;
+    color: #000;
+    line-height: 38px;
+}
+
+#slider {
+    
+}
+#content {
+
+}
+#footer {
+
+}

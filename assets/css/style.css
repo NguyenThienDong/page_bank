@@ -9,6 +9,9 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.clear{
+    clear: both;
+}
 /*
 1. Tu ngoai vao trong
 2. Tu tren xuong duoi
@@ -131,6 +134,55 @@ html {
 #slider .text-decoration {
     font-size: 15px;
     margin-top: 25px;
+}
+
+#content .content-section {
+    padding: 64px 0;
+    font-size: 15px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .content-section .section-heading {
+    text-transform: uppercase;
+    letter-spacing: 4px; /*khoang cach giua cac chu trong tu*/
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#content .content-section .section-sub-heading {
+    font-style: italic;
+    padding: 16px 0;
+    opacity:  0.6; 
+    text-align: center;
+}
+
+#content .content-section .about-text {
+    padding: 16px 0;
+    text-align: justify;  
+    line-height: 1.4; 
+}
+
+#content .member-list {
+    float: left;
+    padding: 32px 0;
+    width: 33.33333%;
+    margin-top: 47px;
+    text-align: center;
+    
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
 }
 
 #footer {

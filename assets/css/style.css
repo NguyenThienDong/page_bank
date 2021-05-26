@@ -32,6 +32,7 @@ html {
     right: 0;
     height: 46px;
     background-color: #000;
+    z-index: 1;
 }
 
 #nav {
@@ -108,8 +109,28 @@ html {
 }
 
 #slider {
-    background-color: green;
+    position: relative;
     margin-top: 46px;
+    background: url('https://www.w3schools.com/w3images/chicago.jpg') top center / cover no-repeat;
+    padding-top: 50%; /*50% cua chieu ngang weight */   
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px; 
+}
+
+#slider .text-decoration {
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #footer {

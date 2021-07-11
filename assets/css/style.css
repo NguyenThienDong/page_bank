@@ -10,11 +10,11 @@ html {
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .row {
@@ -47,11 +47,32 @@ html {
 }
 
 .mt-8 {
-    margin-top: 8px;
+    margin-top: 8px !important;
 }
 
 .mt-16 {
-    margin-top: 16px;
+    margin-top: 16px !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #000;
+    color:#fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #333;
+    border: none;
 }
 /*
 1. Tu ngoai vao trong
@@ -178,7 +199,7 @@ html {
 }
 
 #content .content-section {
-    padding: 64px 0;
+    padding: 64px 0px 112px;
     font-size: 15px;
     width: 800px;
     margin-left: auto;
@@ -208,10 +229,7 @@ html {
 }
 
 #content .member-list {
-    float: left;
-    padding: 32px 0;
-    margin-top: 47px;
-    text-align: center;
+    margin-top: 48px;
     
 }
 
@@ -264,7 +282,6 @@ html {
  /* places */
 .places-list {
     margin-top:32px; 
-    margin-bottom: 64px;  
 }
 
 .place-img {
@@ -326,19 +343,34 @@ html {
     width: 100%;
 }
 
-.contact-form .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    float: right;
-    padding: 10px 16px;
-    border: 1pt solid #000;
+/* Map section */
+.map-section img{
+    width: 100%;
 }
 
-.contact-form .form-submit-btn:hover {
-    background-color: #ccc;
-    color: #333;
-    border: none;
-}
 #footer {
+    padding: 16px 64px;
+}
 
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer .socials-list a {
+    text-decoration: none;
+    color: #757575;
+}
+
+#footer .socials-list a:hover {
+    opacity: 0.6;
+}
+
+#footer .copyright {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #757575;
+}
+
+#footer .copyright a {
+    color: #757575;
 }

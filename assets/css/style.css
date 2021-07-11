@@ -9,10 +9,6 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.clear{
-    clear: both;
-}
-
 .text-white {
     color: #fff;
 }
@@ -26,10 +22,20 @@ html {
     margin-right: -8px;
 }
 
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col {
     float: left;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
 }
 
 .col-half {
@@ -38,6 +44,14 @@ html {
 
 .col-third {
     width: 33.333333%;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
 }
 /*
 1. Tu ngoai vao trong
@@ -292,7 +306,39 @@ html {
     color: #333; 
 }
 
+.contact-content {
+    margin-top: 48px;
+}
 
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form .form-controll {
+    padding: 10px;
+    border: 1pt solid #ccc;
+    width: 100%;
+}
+
+.contact-form .form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    float: right;
+    padding: 10px 16px;
+    border: 1pt solid #000;
+}
+
+.contact-form .form-submit-btn:hover {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+}
 #footer {
 
 }
